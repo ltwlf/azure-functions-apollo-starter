@@ -9,7 +9,6 @@ const server = new ApolloServer({
     playground: {
         settings: {
             'editor.theme': 'dark',
-
         },
     },
 })
