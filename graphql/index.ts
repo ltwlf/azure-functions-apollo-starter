@@ -9,9 +9,9 @@ const server = new ApolloServer({
     playground: {
         settings: {
             'editor.theme': 'dark',
+
         },
     },
-    introspection: true,
 })
 
 exports.graphqlHandler = server.createHandler({
