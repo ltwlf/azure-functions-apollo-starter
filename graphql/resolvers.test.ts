@@ -1,6 +1,6 @@
 import { resolvers } from './resolvers'
 
-test('Hello schould return greeting', async () => {
+test('Hello should return greeting', async () => {
 
     const greeting = await resolvers.Query.hello({}, { name: 'Chris' }, {}, {})
 
